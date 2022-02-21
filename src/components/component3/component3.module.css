@@ -1,0 +1,33 @@
+.container {
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+}
+.cardpart {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card1{
+    flex:1;
+height:300px;
+border:solid black 1px;
+}
+.card2{
+    flex:1;
+    height:300px;
+    border:solid black 1px;
+}
+.card3{
+    flex:1;
+    height:300px;
+    border:solid black 1px;
+}
