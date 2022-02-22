@@ -13,21 +13,104 @@
     flex-wrap: wrap;
     justify-content: center;
     width:80%;
+    gap:10px;
     margin-left: auto;
     margin-right: auto;
 }
 .card1{
     flex:1;
 height:300px;
-border:solid black 1px;
+display:flex;
+flex-direction: column;
+}
+.cardheading {
+flex:2;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.cardsearchicon{
+    color:white;
+    font-size: 40px;
+}
+.cardheadingbg{
+  background-color: black;
+  height:80%;
+  max-width: 30%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.cardcontent {
+flex:2;
+}
+.cardbutton {
+flex:1;
+}
+.cardcontent {
+    text-align:center;
+}
+.cardcontent > p {
+    font-size: 13px;
+}
+.cardbutton {
+    text-align: center;
+}
+.cardbutton > button {
+    width:70px;
+    font-size: 10px;
+    height: 30px;
+    border-color: rgb(199, 197, 197);
+    border-width: 1px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.card1:hover .cardbutton >button {
+    background-color:rgb(59, 194, 183);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.card1:hover .cardheadingbg {
+    background-color: rgb(59, 194, 183);
+}
+.card1:hover {
+    transform: scale(1.05);
 }
 .card2{
     flex:1;
     height:300px;
-    border:solid black 1px;
+    display:flex;
+flex-direction: column;
+}
+.card2:hover .cardbutton >button {
+    background-color:rgb(59, 194, 183);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.card2:hover .cardheadingbg {
+    background-color: rgb(59, 194, 183);
+}
+.card2:hover {
+    transform: scale(1.05);
 }
 .card3{
     flex:1;
     height:300px;
-    border:solid black 1px;
+    display:flex;
+flex-direction: column;
+}
+.card3:hover .cardbutton >button {
+    background-color:rgb(59, 194, 183);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.card3:hover .cardheadingbg {
+    background-color: rgb(59, 194, 183);
+}
+.card3:hover {
+    transform: scale(1.05);
 }

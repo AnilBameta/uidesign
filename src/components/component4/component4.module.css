@@ -1,0 +1,121 @@
+.container {
+    background-color: rgb(51, 49, 49);
+    display:flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-top: -15px;
+    
+}
+.headingfont {
+   flex:1;
+   display: flex;
+   justify-content: center;
+   width:80%;
+   margin-left: auto;
+   margin-right: auto ;
+}
+.keyiconbg {
+    background-color: rgb(59, 194, 183);
+    width: 30px;
+    height: 30px;
+    transform: rotateZ(45deg);
+    position:relative;
+    bottom:14px;
+    border-radius: 3px;
+}
+.keyicon {
+    color:white;
+    font-size: 14px;
+}
+.heading {
+flex:2;
+text-align: center;
+width:80%;
+   margin-left: auto;
+   margin-right: auto ;
+}
+.heading > h2 {
+    color:white;
+}
+.heading > p {
+    color:rgb(216, 214, 214);
+    font-size: 11px;
+}
+.content{
+flex:4;
+display: flex;
+width:80%;
+   margin-left: auto;
+   margin-right: auto ;
+   margin-top: 20px;
+}
+.leftcontent {
+    flex:1;
+    margin-bottom: 40px;
+}
+.leftcontentcontainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.leftcontentcontainer > .wrapper {
+    display: flex;
+    align-items: center;
+}
+.iconspart {
+flex:1;
+}
+.desktopicon {
+  font-size:30px;
+  color:rgb(59, 194, 183);
+}
+.contentpart {
+flex:3;
+text-align: start;
+}
+.contentpart > 
+h4 {
+ color:white;
+ font-size: 15px;
+ margin-bottom:0;
+}
+.contentpart > p{
+    font-size: 11px;
+    color:rgb(216, 214, 214);
+    
+}
+
+.rightcontent {
+  flex:2;
+  display: flex;
+  align-items: bottom;
+}
+.box1{
+        width: 320px;
+        background-color: white;
+        padding: 50px;
+        margin: 20px;
+        border: solid rgb(102, 100, 100);
+        position: relative;
+        top: 120px;
+        left:150px;
+        height:200px;
+        z-index:1;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: none;
+      
+}
+.box2{
+    position: relative;
+        top: 20px;
+        border: solid rgb(102, 100, 100);
+    width: 250px;
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+    height:300px;
+    border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: none;
+}
