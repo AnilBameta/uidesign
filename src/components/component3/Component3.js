@@ -8,7 +8,7 @@ const Component3 = () => {
     return (
         <div className={styles.container}>
             <div className={styles.heading}>
-            <h1>WHAT WE OFFER</h1>
+            <h2>WHAT WE OFFER</h2>
             <p>We offer our customers the best services & solutions, this is our main services list</p>
             </div>
      

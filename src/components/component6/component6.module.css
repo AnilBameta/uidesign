@@ -1,0 +1,88 @@
+.container {
+    background: rgb(51, 49, 49); 
+    margin-top: 60px;
+}
+.wrapper {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.headingfont {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto ;
+ }
+ .keyiconbg {
+     background-color: rgb(59, 194, 183);
+     width: 30px;
+     height: 30px;
+     transform: rotateZ(45deg);
+     position:relative;
+     bottom:14px;
+     border-radius: 3px;
+ }
+ .keyicon {
+     color:white;
+     font-size: 14px;
+     transform: rotateZ(-45deg);
+ }
+ .heading{
+     margin-top: 20px;
+     text-align: center;
+     
+ }
+ .heading > h2{
+   margin:0;
+   color: white;
+ }
+ .heading > p{
+    margin:0;
+    font-size: 11px;
+    color:rgb(216, 214, 214);
+  }
+.content {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.percentcardcontainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px;
+    margin-top: 30px;
+}
+.percentcard {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    margin-bottom: 40px;
+}
+.percentcard > .percent {
+position: relative;
+color: white;
+}
+.progress {
+    color:rgb(59, 194, 183);
+}
+.percent > .number {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    
+}
+.percentcard > .content
+{
+    margin-top: 12px;
+  font-size: 9px;
+  color: rgb(199, 196, 196);
+  font-weight: 500;
+}

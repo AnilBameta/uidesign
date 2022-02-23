@@ -33,17 +33,21 @@ text-align: center;
 width:80%;
    margin-left: auto;
    margin-right: auto ;
+   margin-top: 10px;
 }
 .heading > h2 {
     color:white;
+    margin: 0;
 }
 .heading > p {
     color:rgb(216, 214, 214);
     font-size: 11px;
+    margin: 0;
 }
 .content{
 flex:4;
 display: flex;
+flex-wrap: wrap;
 width:80%;
    margin-left: auto;
    margin-right: auto ;
@@ -56,6 +60,7 @@ width:80%;
 .leftcontentcontainer{
     display: flex;
     flex-direction: column;
+    gap:15px;
     
 }
 .leftcontentcontainer > .wrapper {
@@ -83,12 +88,13 @@ h4 {
     font-size: 11px;
     color:rgb(216, 214, 214);
     
+    
 }
 
 .rightcontent {
   flex:2;
   display: flex;
-  align-items: bottom;
+  justify-content: center;
 }
 .box1{
         width: 320px;
@@ -118,4 +124,12 @@ h4 {
     border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom: none;
+}
+.box1 > .boximage {
+    width:100%;
+    height: 150%;
+}
+.box2 > .boximage{
+    width:100%;
+    height: 124%;
 }

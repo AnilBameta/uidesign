@@ -7,6 +7,14 @@
 .heading{
     text-align: center;
 }
+.heading > h2 {
+    margin: 0;
+}
+.heading > p {
+    margin: 0;
+    color:rgb(180, 175, 175);
+    font-size: 11px;
+} 
 .cardpart {
     margin-top: 50px;
     display: flex;
@@ -44,19 +52,17 @@ text-align: center;
 }
 .cardcontent {
 flex:2;
+text-align:center;
 }
 .cardbutton {
 flex:1;
+text-align: center;
 }
-.cardcontent {
-    text-align:center;
-}
+
 .cardcontent > p {
     font-size: 13px;
 }
-.cardbutton {
-    text-align: center;
-}
+
 .cardbutton > button {
     width:70px;
     font-size: 10px;
@@ -65,6 +71,7 @@ flex:1;
     border-width: 1px;
     border-radius: 3px;
     font-weight: 700;
+    color:rgb(134, 134, 134);
 }
 .card1:hover .cardbutton >button {
     background-color:rgb(59, 194, 183);
