@@ -56,10 +56,10 @@ const Component4 = () => {
               </div>
               <div className={styles.rightcontent}>
                   <div className={styles.box1}>
-                      <img src='../../../public/images/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg' alt= 'not available'></img>
+                      <img className={styles.boximage} src='/images/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg' alt= 'not available'></img>
                   </div>
                   <div className={styles.box2}>
-                      <img src='../../../public/images/sharon-mccutcheon-NkQD-RHhbvY-unsplash.jpg' alt= 'not available'></img>
+                      <img className={styles.boximage} src='/images/sharon-mccutcheon-NkQD-RHhbvY-unsplash.jpg' alt= 'not available'></img>
                   </div>
               </div>
           </div>
