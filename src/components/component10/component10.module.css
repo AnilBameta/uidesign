@@ -1,0 +1,172 @@
+.container {
+margin-top: 40px;;
+}
+.wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    flex:1;
+    display: flex;
+}
+.header > .left{
+flex:1;
+text-align: end;
+}
+.header > .center{
+    flex:7;
+    text-align: center;
+}
+.header > .right{
+    flex:1;
+    text-align: start;
+}
+.headericon {
+    font-size:25px;
+    cursor: pointer;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+.center > p {
+    margin:0;
+    font-size: 11px;
+    color:rgb(180, 175, 175)
+}
+.center > h2 {
+    margin:0;
+}
+.content {
+    flex:4;
+    margin-top: 40px;
+}
+.cardcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.membercard {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border: 0.4px solid rgb(235, 232, 232);
+    border-radius: 5px;
+}
+.membercard > .cardimg {
+flex:3;
+
+}
+.membercard > .cardbtn {
+flex:2;
+text-align: center;
+position: relative;
+bottom:25px;
+}
+.cardbtn > button {
+    width:110px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    background-color: rgb(59, 194, 183);
+    color:rgb(235, 232, 232);
+}
+.membercard > .cardtxt {
+flex:3;
+text-align: center;
+margin: 0;
+}
+.cardimg > img {
+    height:220px;
+}
+.cardimg  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.membercard:hover .imgbg {
+    background-color: rgb(59, 194, 183);
+    opacity: 0.7;
+    visibility: visible;
+} 
+.imgbg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap:6px;
+    height: 100%;
+    justify-content: center;
+    visibility: hidden;
+}
+.imgbg > .box {
+    border: solid white;
+    width:25px;
+    height:25px;
+    transform: rotateZ(45deg);
+    background-color: white;
+}
+.box:hover {
+    background-color: black;
+    border-color: black;
+}
+.box:hover .imgbgicon {
+    color:white;
+    
+}
+.imgbgicon {
+    transform: rotateZ(-45deg);
+    color:rgb(59, 194, 183);
+}
+.desig {
+    margin-top: -20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+.mail {
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(180, 175, 175)
+}
+.mail > p {
+    font-size: 11px;
+    text-align: center;
+    flex:2;
+}
+.mail > .cardicon {
+    flex:1;
+    text-align: end;
+}
+.phn {
+    margin-top: 5px;
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(180, 175, 175)
+}
+.phn > p {
+  font-size: 11px; 
+  flex:2;
+  text-align: center; 
+}
+.phn > .cardicon {
+    flex:1;
+}
+.membercard:hover .cardbtn > button{
+   background-color: rgb(51, 49, 49); 
+   color:white;
+}
+.membercard:hover .mail > p {
+    color:rgb(59, 194, 183);
+}
