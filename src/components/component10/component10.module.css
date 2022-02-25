@@ -62,11 +62,15 @@ text-align: end;
 flex:3;
 
 }
+.cardimg > img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 .membercard > .cardbtn {
 flex:2;
 text-align: center;
 position: relative;
-bottom:25px;
+bottom:20px;
 }
 .cardbtn > button {
     width:110px;
@@ -95,6 +99,8 @@ margin: 0;
     background-color: rgb(59, 194, 183);
     opacity: 0.7;
     visibility: visible;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 } 
 .imgbg {
     position: absolute;
@@ -141,7 +147,7 @@ margin: 0;
 .mail > p {
     font-size: 11px;
     text-align: center;
-    flex:2;
+    flex:3;
 }
 .mail > .cardicon {
     flex:1;
@@ -153,7 +159,8 @@ margin: 0;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    color:rgb(180, 175, 175)
+    color:rgb(180, 175, 175);
+    margin-bottom: 10px;
 }
 .phn > p {
   font-size: 11px; 
