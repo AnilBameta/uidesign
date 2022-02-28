@@ -10,6 +10,10 @@ import Component8 from './components/component8/Component8';
 import Component9 from './components/component9/Component9';
 import Component10 from './components/component10/Component10';
 import Component11 from './components/component11/Component11';
+import Component13 from './components/component13/Component13';
+import Component14 from './components/component14/Component14';
+import Component15 from './components/component15/Component15';
+import Component16 from './components/component16/Component16';
 
 
 function App() {
@@ -26,6 +30,10 @@ function App() {
     <Component9 />
     <Component10 />
     <Component11 />
+    <Component13 />
+    <Component14 />
+    <Component15 />
+    <Component16 />
     
     </div>
   );

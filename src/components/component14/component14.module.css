@@ -1,0 +1,51 @@
+.container {
+    background-image: url('/public/images/Component14/henry-dick-TRNhP4XxMQw-unsplash.jpg');
+    background-size: cover;
+}
+.wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.imgsec {
+  flex:1;
+  display: inline-block;
+  overflow: hidden;
+  justify-content: end;
+}
+.imgsec > img {
+    position: relative;
+    height: 200px;
+  margin-top: -40%;
+  transform: translateY(50%);
+}
+.contentsec {
+flex:3;
+text-align:start;
+}
+.btnsec {
+flex:1;
+}
+.btnsec > button {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    padding: 1px;
+    height: 30px;
+    background-color: rgb(59, 194, 183);
+    border-radius: 3px;
+    border:none;
+
+}
+.btnsec > button > p{
+    font-size: 11px;
+    font-weight: 600;
+flex:3;
+color: white;
+}
+.btnsec > button > span {
+flex: 1;
+color: white;
+}
