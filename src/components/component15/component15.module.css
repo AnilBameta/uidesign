@@ -1,0 +1,52 @@
+.container {
+    background-color: rgb(54, 51, 51);
+}
+.wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    display:flex;
+    gap:5px;
+    align-items: center;
+    color:white;
+
+}
+.heading > .headingicon {
+    text-align: end;
+    padding-top: 18px;
+    flex:1;
+}
+.heading > .headingname {
+flex:1;
+}
+.heading > .headingicon img{
+    height:30px;
+    width: 30px;
+} 
+.font {
+    display: flex;
+    align-items: center;
+}
+.fontcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 40px;
+}
+.fontcard{
+    width:30px;
+    height:30px;
+    border-radius: 3px;
+    border: solid rgb(175, 171, 171) 1px;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+.fontcard:hover {
+    background-color: rgb(59, 194, 183);
+    border: none;
+}

@@ -1,0 +1,101 @@
+.container {
+ margin-top: 30px;
+}
+.wrapper {
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ flex-direction: column;
+}
+.header {
+flex:1;
+text-align: center;
+}
+.header > h2 {
+    margin:0;
+}
+.header > p {
+    margin:0;
+    font-size: 11px;
+    color:rgb(180, 175, 175)
+}
+.content {
+ padding-top: 70px;
+}
+.content > .cardcontainer {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ gap: 10px;
+ padding-bottom: 60px;
+}
+.card {
+ border: solid rgb(224, 217, 217) 0.5px;
+ max-width:240px;
+ border-radius: 3px;
+ display: flex;
+ flex-direction: column;
+ 
+}
+.upbtn {
+position: relative;
+bottom: 17px;
+text-align: center;
+display: inline;
+}
+.upbtn > button {
+    height: 35px;
+    width: 120px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.card:hover .upbtn > button {
+    background-color: rgb(59, 194, 183);
+    color:black;
+    transform: scale(1.15);
+}
+.num {
+text-align: center;
+}
+.num > h1 {
+    font-size: 30px;
+}
+.list {
+text-align: center;
+width:90%;
+margin-left: auto;
+margin-right: auto;
+}
+.list > ul {
+    list-style-type:none;
+    padding: 15px 0 15px 0;
+    border-top: solid rgb(224, 217, 217) 0.5px;
+    border-bottom: solid rgb(224, 217, 217) 0.5px;
+}
+.list > ul > li {
+    padding: 8px 0 8px 0;
+    font-size: 13px;
+    color:rgb(139, 136, 136);
+}
+.downbtn {
+padding-bottom: 10px;
+bottom: 15px;
+text-align: center;
+display: inline;
+
+}
+.downbtn > button {
+    height: 35px;
+    width: 120px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: rgb(59, 194, 183);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
