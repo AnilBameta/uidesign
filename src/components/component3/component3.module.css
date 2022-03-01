@@ -44,8 +44,8 @@ text-align: center;
 }
 .cardheadingbg{
   background-color: black;
-  height:80%;
-  max-width: 30%;
+  height:100px;
+  max-width: 100px;
   border-radius: 50%;
   display: flex;
   align-items: center;

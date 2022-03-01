@@ -9,25 +9,25 @@
     flex-direction: column;
 }
 .heading {
-    display:flex;
-    gap:5px;
-    align-items: center;
+    display:inline;
+    align-items: top;
     color:white;
+    text-align: center;
+    padding: 20px;
+}
 
-}
-.heading > .headingicon {
-    text-align: end;
-    padding-top: 18px;
-    flex:1;
-}
-.heading > .headingname {
-flex:1;
-}
-.heading > .headingicon img{
-    height:30px;
-    width: 30px;
+.heading > img{
+    height:20px;
+    width: 20px;
+    margin-right: 4px;
 } 
+.heading > h2 {
+    display: inline;
+    
+}
+
 .font {
+    padding-top: 20px;
     display: flex;
     align-items: center;
 }

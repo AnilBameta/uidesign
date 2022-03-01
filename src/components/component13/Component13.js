@@ -15,8 +15,8 @@ const Component13 = () => {
                        <div className={styles.card}>
                          <div className={styles.upbtn}>
                            <button> STANDARD PLAN</button>
-                         </div>
-                         <div className={styles.num}>
+                         </div>   
+                         <div className={styles.num}>                           
                             <h1>19.99 Monthly</h1>
                          </div>
                          <div className={styles.list}>

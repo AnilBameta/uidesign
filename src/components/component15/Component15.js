@@ -19,12 +19,13 @@ const Component15 = () => {
         <div className={styles.container}>
             <div className={styles.wrapper}>
                 <div className={styles.heading}> 
-                <div className={styles.headingicon}>
+               
                 <img className = {styles.image} src='logo512.png'  alt= "not available"/>
-                </div>
-                <div className={styles.headingname}>
-                    <h2>STARTUPRR</h2></div>
-                </div>
+                
+                 
+                    <h2>STARTUPRR</h2>
+                    </div>
+                
                 <div className={styles.font}>
                 <div className={styles.fontcontainer}>
                     {

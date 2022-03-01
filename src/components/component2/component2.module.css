@@ -2,6 +2,9 @@
     height:100px;
     margin-bottom: solid black 1px;
     display:flex;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .left{
  flex:1;
@@ -28,6 +31,7 @@ h2{
  flex:2;
  display: flex;
  align-items: center;
+ justify-content: end;
  gap:5px;
 }
 .navbtn {
@@ -51,4 +55,43 @@ h2{
 }
 .searchicon:hover{
     cursor: pointer;
+}
+.baricon {
+    display:none;
+}
+.barDropDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+@media screen and (max-width:950px) {
+    .right {
+        display:none;
+    }
+
+    .baricon {
+        display:inline;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 60%;
+    }
+}
+@media screen and (min-width:951px) 
+{
+    .barDropDown {
+    display: none;
+}
+}
+@media screen and (max-width:550px) {
+    .baricon {
+        margin-left:50% ;
+    }
+} 
+@media screen and (max-width:400px) {
+    .baricon {
+        margin-left: 30%;
+    }
 }

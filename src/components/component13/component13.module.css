@@ -28,6 +28,7 @@ text-align: center;
  justify-content: space-around;
  flex-wrap: wrap;
  gap: 10px;
+ row-gap: 40px;
  padding-bottom: 60px;
 }
 .card {
@@ -63,7 +64,11 @@ display: inline;
 text-align: center;
 }
 .num > h1 {
+    font-variant-numeric: oldstyle-nums;
     font-size: 30px;
+}
+.num > p {
+    display: inline;
 }
 .list {
 text-align: center;

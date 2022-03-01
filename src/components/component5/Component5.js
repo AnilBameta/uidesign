@@ -22,7 +22,9 @@ const Component5 = () => {
                    </div>
                    <div className={styles.cardcontent}>
                        <h4>RESPONSIVE & MULTIPURPOSE</h4>
+                       
                        <span>Desktops,Tablets & Phones</span>
+                       <br />
                        <p>This is one of the best technology in the market which one can use</p>
                    </div>
                    </div>
@@ -34,6 +36,7 @@ const Component5 = () => {
                    <div className={styles.cardcontent}>
                        <h4>RESPONSIVE & MULTIPURPOSE</h4>
                        <span>Desktops,Tablets & Phones</span>
+                       <br />
                        <p>This is one of the best technology in the market which one can use</p>
                    </div>
                    </div>
@@ -45,6 +48,7 @@ const Component5 = () => {
                    <div className={styles.cardcontent}>
                        <h4>RESPONSIVE & MULTIPURPOSE</h4>
                        <span>Desktops,Tablets & Phones</span>
+                       <br />
                        <p>This is one of the best technology in the market which one can use</p>
                    </div>
                    </div>
@@ -56,6 +60,7 @@ const Component5 = () => {
                    <div className={styles.cardcontent}>
                        <h4>RESPONSIVE & MULTIPURPOSE</h4>
                        <span>Desktops,Tablets & Phones</span>
+                       <br />
                        <p>This is one of the best technology in the market which one can use</p>
                    </div>
                    </div>
@@ -67,6 +72,7 @@ const Component5 = () => {
                    <div className={styles.cardcontent}>
                        <h4>RESPONSIVE & MULTIPURPOSE</h4>
                        <span>Desktops,Tablets & Phones</span>
+                       <br />
                        <p>This is one of the best technology in the market which one can use</p>
                    </div>
                    </div>
@@ -78,6 +84,7 @@ const Component5 = () => {
                    <div className={styles.cardcontent}>
                        <h4>RESPONSIVE & MULTIPURPOSE</h4>
                        <span>Desktops,Tablets & Phones</span>
+                       <br />
                        <p>This is one of the best technology in the market which one can use</p>
                    </div>
                    </div>
