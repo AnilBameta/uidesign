@@ -54,6 +54,8 @@ text-align: end;
 .membercard {
     flex:1;
     display: flex;
+    max-width:250px;
+    min-width:200px;
     flex-direction: column;
     border: 0.4px solid rgb(235, 232, 232);
     border-radius: 5px;
@@ -176,4 +178,10 @@ margin: 0;
 }
 .membercard:hover .mail > p {
     color:rgb(59, 194, 183);
+}
+
+@media  screen and (max-width:525px) and (min-width:330px) {
+    .cardcontainer {
+        justify-content: center;
+    }
 }
