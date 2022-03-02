@@ -47,14 +47,14 @@ text-align: end;
 }
 .cardcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap:20px;
 }
 .membercard {
     flex:1;
     display: flex;
-    max-width:250px;
+    max-width:200px;
     min-width:200px;
     flex-direction: column;
     border: 0.4px solid rgb(235, 232, 232);
