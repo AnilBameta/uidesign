@@ -15,6 +15,7 @@ const Component7 = () => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.wrapper}>
       <div className={styles.heading}>
         <h2>SAMPLE WORKS</h2>
         <p>
@@ -75,6 +76,7 @@ const Component7 = () => {
         ) : (
           <button onClick={clicked}>All works</button>
         )}
+      </div>
       </div>
     </div>
   );

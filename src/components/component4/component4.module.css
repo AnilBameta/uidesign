@@ -1,18 +1,21 @@
 .container {
     background-color: rgb(51, 49, 49);
+    
+    
+}
+.wrapper {
     display:flex;
     flex-direction: column;
     margin-top: 40px;
     padding-top: -15px;
-    
+    width:80%;
+    margin-left: auto;
+    margin-right: auto ;
 }
 .headingfont {
    flex:1;
    display: flex;
    justify-content: center;
-   width:80%;
-   margin-left: auto;
-   margin-right: auto ;
 }
 .keyiconbg {
     background-color: rgb(59, 194, 183);
@@ -30,10 +33,6 @@
 .heading {
 flex:2;
 text-align: center;
-width:80%;
-   margin-left: auto;
-   margin-right: auto ;
-   margin-top: 10px;
 }
 .heading > h2 {
     color:white;
@@ -48,24 +47,22 @@ width:80%;
 flex:4;
 display: flex;
 flex-wrap: wrap;
-width:80%;
-   margin-left: auto;
-   margin-right: auto ;
-   margin-top: 20px;
+ margin-top: 20px;
 }
 .leftcontent {
     flex:1;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .leftcontentcontainer{
     display: flex;
     flex-direction: column;
-    gap:25px;
+    gap:5px;
     
 }
 .leftcontentcontainer > .wrapper {
     display: flex;
+    flex-direction: row;
 }
 .iconspart {
 flex:3;
@@ -95,15 +92,14 @@ h4 {
   flex:2;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 .box1{
         width: 320px;
         background-color: white;
         padding: 15px;
-        margin: 20px;
         border: solid rgb(102, 100, 100);
         position: relative;
-        top: 120px;
         left:150px;
         height:200px;
         z-index:1;
@@ -113,13 +109,11 @@ h4 {
       
 }
 .box2{
-    position: relative;
-        top: 20px;
-        border: solid rgb(102, 100, 100);
+    position: relative;  
+    border: solid rgb(102, 100, 100);
     width: 250px;
     background-color: white;
     padding: 15px;
-    margin: 20px;
     height:300px;
     border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -134,23 +128,3 @@ h4 {
     height: 100%;
 }
 
-@media screen and (max-width:650px) {
-    .box1 {
-        left:50px;
-    }
-    .box2 {
-        right: 100px;
-    }
-}
-
-@media screen and (min-width:970px) and (max-width:1084px) {
-    .box1 {
-        top:140px;
-    }
-    .box2 {
-        top:40px;
-    }
-}
-@media screen and (max-width:960px) {
-    
-}

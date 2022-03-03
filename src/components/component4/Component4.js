@@ -9,6 +9,7 @@ import {faKey} from '@fortawesome/free-solid-svg-icons';
 const Component4 = () => {
     return (
         <div className={styles.container}>
+            <div className={styles.wrapper}>
           <div className={styles.headingfont}>
               <div className={styles.keyiconbg}>
               <FontAwesomeIcon icon={faKey} className={styles.keyicon}></FontAwesomeIcon>
@@ -62,6 +63,7 @@ const Component4 = () => {
                       <img className={styles.boximage} src='/images/sharon-mccutcheon-NkQD-RHhbvY-unsplash.jpg' alt= 'not available'></img>
                   </div>
               </div>
+          </div>
           </div>
         </div>
     )
