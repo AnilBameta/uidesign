@@ -7,6 +7,7 @@ import {faHandsHelping} from '@fortawesome/free-solid-svg-icons';
 const Component3 = () => {
     return (
         <div className={styles.container}>
+           <div className={styles.wrapper}>
             <div className={styles.heading}>
             <h2>WHAT WE OFFER</h2>
             <p>We offer our customers the best services & solutions, this is our main services list</p>
@@ -55,6 +56,7 @@ const Component3 = () => {
                    <button>Read More</button>
                 </div>
             </div>
+        </div>
         </div>
         </div>
         
